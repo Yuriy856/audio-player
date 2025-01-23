@@ -83,20 +83,6 @@ function App() {
       src: "src/assets/audio/DXSTINY - INTERWORLD.mp3",
       img: "src/assets/song-imgs/DXSTINY - INTERWORLD.jpg",
     },
-    {
-      id: 10,
-      title: "INTERWORLD",
-      artist: "DXSTINY",
-      src: "src/assets/audio/DXSTINY - INTERWORLD.mp3",
-      img: "src/assets/song-imgs/DXSTINY - INTERWORLD.jpg",
-    },
-    {
-      id: 10,
-      title: "INTERWORLD",
-      artist: "DXSTINY",
-      src: "src/assets/audio/DXSTINY - INTERWORLD.mp3",
-      img: "src/assets/song-imgs/DXSTINY - INTERWORLD.jpg",
-    },
   ];
 
   const [currentIndexTrack, setCurrentIndexTrack] = useState(0);

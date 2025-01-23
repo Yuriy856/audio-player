@@ -7,7 +7,7 @@
   /* background: linear-gradient(315deg, #1f202f 0%, #2f3147 100%); */
   background-color: #1f202f;
   overflow: auto;
-  scrollbar-width: 0;
+  scrollbar-width: none;
 }
 
 .track-list {

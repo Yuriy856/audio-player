@@ -1,0 +1,118 @@
+.tracklist-container {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #545680;
+  padding: 20px;
+  /* background: linear-gradient(315deg, #1f202f 0%, #2f3147 100%); */
+  background-color: #1f202f;
+  overflow: auto;
+  scrollbar-width: 0;
+}
+
+.track-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.track-item {
+  position: relative;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 10px 40px 1fr;
+  column-gap: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  transition: 0.1s;
+  cursor: pointer;
+
+  font-size: 14px;
+
+  &:hover {
+    background-color: #313248;
+  }
+}
+
+.track-img {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: #1f1f2d;
+  border-radius: 4px;
+}
+
+.play-song-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+
+  display: grid;
+  place-content: center;
+
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  opacity: 0;
+  /* transition: 0.02s; */
+  background-color: hsla(236, 20%, 29%, 0.6);
+}
+
+.track-item:hover .play-song-button {
+  opacity: 1;
+}
+
+.play-song-button svg path {
+  fill: white;
+  stroke: white;
+}
+
+.track-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.track-info .track-title {
+  font-size: 16px;
+  font-weight: 600;
+  white-space: nowrap;
+  max-width: 220px;
+  overflow: hidden;
+}
+
+.track-info .track-artist {
+  font-weight: 400;
+  color: #ccc;
+}
+
+.audiowave {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+
+  transform: translateY(-50%);
+
+  display: flex;
+  align-items: flex-end;
+  column-gap: 1px;
+  width: 24px;
+  height: 24px;
+  /* background-color: #313248; */
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.1s ease-in-out;
+}
+
+.audiowave-item {
+  height: 100%;
+
+  background-color: #1fff96;
+  flex: 1;
+  border: 1px solid #1fff96;
+  border-top-right-radius: 1px;
+  border-top-left-radius: 1px;
+
+}

@@ -76,4 +76,11 @@ export const tracks = [
     src: "assets/audio/DXSTINY - INTERWORLD.mp3",
     img: "assets/song-imgs/DXSTINY - INTERWORLD.jpg",
   },
+  {
+    id: 11,
+    title: "Resonance - Midwest Emo Version",
+    artist: "Jacal",
+    src: "assets/audio/Jacal - Resonance - Midwest Emo Version.mp3",
+    img: "assets/song-imgs/Jacal - Resonance - Midwest Emo Version.jpg",
+  },
 ];

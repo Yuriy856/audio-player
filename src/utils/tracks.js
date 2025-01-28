@@ -83,4 +83,11 @@ export const tracks = [
     src: "assets/audio/Jacal - Resonance - Midwest Emo Version.mp3",
     img: "assets/song-imgs/Jacal - Resonance - Midwest Emo Version.jpg",
   },
+  {
+    id: 12,
+    title: "Red Velvet (with Ari Abdul)",
+    artist: "Jutes, Ari Abdul",
+    src: "assets/audio/Jutes, Ari Abdul - Red Velvet (with Ari Abdul).mp3",
+    img: "assets/song-imgs/Jutes, Ari Abdul - Red Velvet (with Ari Abdul).jpg",
+  },
 ];

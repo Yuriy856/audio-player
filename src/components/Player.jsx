@@ -133,7 +133,7 @@ export default function Player() {
   }, [playing, currentTrack]);
 
   useEffect(() => {
-    console.log(`Current Time: ${formatDuration(currentTime)}`);
+    // console.log(`Current Time: ${formatDuration(currentTime)}`);
   }, [currentTime]);
 
   useEffect(() => {
